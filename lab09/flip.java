@@ -14,11 +14,12 @@ public class flip {
         Scanner myScanner = new Scanner (System.in);
         System.out.println("input an integer between 0 and 100");
         int n = myScanner.nextInt();
+        
         if (n == 0){
-        flip ();
+            flip ();
         }
         else{
-        flip(n);
+            flip(n);
         }
         //int totalHeads;
         //int totalTails;
